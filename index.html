@@ -1,34 +1,95 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Visualize by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>JSON EXAMPLE</title>
-  </head>
-  <body>
-    <p id="timer"></p>
-    <input type="button" id="execute" value="execute"  />
-    <script>
-      document.querySelector('input').addEventListener('click', function(evnet){
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', './file.php');
-        xhr.onreadystatechange = function()
-        {
-          if(xhr.readyState == 4 && xhr.status == 200) 
-          {
-            var _tzs = xhr.responseText;
-            var tzs = JSON.parse(_tzs); // json통신. 1.XMLHttpRequest 객체생성
-            var _str = '';              // 2. open하고 json형태 스트링 받아옴
-            for(var i = 0; i < tzs.length; i++) // 그걸 객체로 파싱해서 제어
-            {
-              _str += '<li>'+tzs[i]+'</li>';
-            }
+	<head>
+		<title>Visualize by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-            _str = '<ul>' + _str + "</ul>";
-            document.querySelector('#timer').innerHTML = _str;
-          }
-        }
-        xhr.send();
-      });
-    </script>
-  </body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<span class="avatar"><img src="images/me.jpg" alt="" /></span>
+						<h1>always <strong>challenging person</strong>,   who wants to be a <strong>coding Guru</strong>.   for that,
+							<strong>動作</strong>は敏こく-<br />
+						'도사' 유상현</h1>
+						<ul class="icons">
+							<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/sanghyeon.yu.56" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/hyunstyle" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
+							<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+					</header>
+
+				<!-- Main -->
+					<section id="main">
+
+						<!-- Thumbnails -->
+							<section class="thumbnails">
+								<div>
+									<a href="images/fulls/badukEffect.jpg">
+										<img src="images/thumbs/baduk.jpg" alt="" />
+										<h3>Top-level amateur baduk player</h3>
+									</a>
+									<a href="https://youtu.be/kWEyksUWEI4">
+										<!--<iframe width="854" height="480" src="movie/playRA.mp4" frameborder="0" allowfullscreen></iframe>
+										<video controls="controls" width="550" height"320">
+											<source src="movie/playRA.mp4">
+										</video> -->
+										<img src="images/thumbs/rhythmArrow.jpg" alt="" />
+										<h3>Rhythm Arrow Project</h3>
+									</a>
+								</div>
+								<div>
+									<a href="images/fulls/communicationPicture.jpg">
+										<img src="images/thumbs/communication.jpg" alt="" />
+										<h3>Communication</h3>
+									</a>
+									<a href="https://youtu.be/Zf3ePB4Q-I8">
+										<img src="images/thumbs/cleaner.png" alt="" />
+										<h3>Cleaner Project</h3>
+									</a>
+									<a href="images/fulls/otherP.jpg">
+										<img src="images/thumbs/thankyou.jpg" alt="" />
+										<h3>my challenge is continued!</h3>
+									</a>
+								</div>
+								<div>
+									<a href="images/fulls/smile.jpg">
+										<img src="images/thumbs/positive.jpg" alt="" />
+										<h3>Smiling & Positive</h3>
+									</a>
+									<a href="https://youtu.be/LTvraw1VZqA">
+										<img src="images/thumbs/rom.png" alt="" />
+										<h3>ROM Project</h3>
+									</a>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p>&copy; made by Yu Sang Hyeon. All rights reserved. Design: <a href="http://templated.co">TEMPLATED</a>. </p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
