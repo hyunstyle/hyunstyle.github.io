@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            About hyunstyle
+description:      NHN Ent. Toast Rookie 6th
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
@@ -8,10 +8,10 @@ url: https://hyunstyle.github.io/about
 #url: http://localhost:4000
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           hyunstyle
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  bio:            "positive makes Positives."
+  email:          shox_@naver.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -34,7 +34,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Korea/Seoul
 future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown
