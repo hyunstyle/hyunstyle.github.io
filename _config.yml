@@ -14,8 +14,8 @@ owner:
   email:          shox_@naver.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
-  facebook:       
-  github:         
+  facebook:       https://www.facebook.com/sanghyeon.yu.56
+  github:         https://www.github.com/hyunstyle
   stackexchange:  
   linkedin:       
   instagram:      
@@ -34,7 +34,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Korea/Seoul
+timezone:    Asia/Seoul
 future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown
