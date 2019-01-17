@@ -1,6 +1,6 @@
 title:            About hyunstyle
 description:      NHN Ent. Toast Rookie 6th
-disqus_shortname: 
+disqus_shortname: hyunstyle
 reading_time:     true
 words_per_minute: 200
 url: https://hyunstyle.github.io/
@@ -10,7 +10,7 @@ url: https://hyunstyle.github.io/
 owner:
   name:           hyunstyle
   avatar:         avatar.jpg
-  bio:            "positive makes Positives."
+  bio:            "NHN Entertainment. Toast Rookie 6th"
   email:          shox_@naver.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
